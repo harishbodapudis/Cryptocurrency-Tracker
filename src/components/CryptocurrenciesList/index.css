@@ -1,0 +1,66 @@
+/* Write your CSS code here */
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.crypto-details-box {
+  width: 95%;
+  margin: auto;
+}
+
+.bitcoin-data-box {
+  border: 2px solid #00e7ff;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+}
+
+.crypto-img-box {
+  width: 70%;
+  margin: auto;
+}
+.crypto-img {
+  width: 100%;
+  margin: auto;
+}
+.heading {
+  color: #00e7ff;
+  text-align: center;
+}
+
+.headings-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: roboto;
+  color: #ffffff;
+  background-color: #092e33;
+  padding: 0px 20px;
+}
+.usd-euro-headings-container {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coin-type {
+  font-size: 20px;
+}
+
+.usd-heading {
+  width: 50%;
+  font-size: 20px;
+}
+.euro-heading {
+  width: 50%;
+  font-size: 20px;
+  margin-left: 15px;
+}
